@@ -1,0 +1,190 @@
+body {
+   background-color: #100808;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+  color: #33bbf6;
+}
+
+h3 {
+  color: #f0e631;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+
+p {
+  color: #faf6f6;
+  line-height: 1.5;
+}
+
+
+
+
+ /* title section */
+.container-fluid {
+  padding: 3% 7%;
+}
+
+.title-header {
+  color: #f0e631;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+/* navigation bar  */
+.navbar {
+  background-color: #33bbf6;
+
+  margin-bottom: 4.5rem;
+  padding: 0;
+}
+
+.navbar-light .navbar-brand {
+  font-family: "Ubuntu";
+  color: #f039d1;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand:hover {
+color: #f0e631;
+}
+
+ .nav-item {
+   color: #f039d1;
+   padding: 0 18px;
+ }
+
+ .nav-link {
+   font-size: 1.2rem;
+
+ }
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #f039d1;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #f0e631;
+}
+
+
+/* heading section */
+
+.title-image {
+  width: 50%;
+
+}
+
+
+/*gallery section */
+
+#gallery {
+  text-align: center;
+}
+
+.gallery-image {
+  margin: 20px;
+
+}
+
+.carousel-inner {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+
+}
+
+.carousel-image {
+  border: 3px solid white;
+  width:50%;
+}
+
+/* info section */
+
+#info-section {
+ text-align: center;
+  padding: 7% 15%;
+}
+
+
+
+ /* footer section */
+#footer {
+  padding: 2% 15%;
+  text-align: center;
+}
+
+
+.footer-text {
+  color: #faf6f6;
+}
+.footer-link {
+  color: #f039d1;
+}
+
+.footer-link:hover {
+  color: #f0e631;
+}
+
+
+.icon {
+  margin: 20px 10px;
+  color: #f039d1
+}
+.icon:hover {
+  color: #f0e631
+}
+
+
+.web-design {
+  font-size: 0.8rem;
+}
+
+
+/* RESPONSIVE SECTION */
+@media (max-width: 1028px) {
+  .title-header {
+    font-size: 5rem;
+  }
+  .title-text {
+    font-size: 4rem;
+    text-align: center;
+  }
+  p {
+    font-size: 2rem;
+  }
+  h2, h3 {
+    font-size: 3rem;
+  }
+  p, span, li, a {
+    font-size: 2rem;
+  }
+  .navbar-light .navbar-brand {
+   font-size: 3rem;
+  }
+  .nav-link {
+    font-size: 2rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+/* colour Palette 277693
+#f039d1; magenta
+#33bbf6; blue
+#f0e631; yellow
+#100808; black
+#faf6f6; white */
